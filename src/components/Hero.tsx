@@ -17,7 +17,7 @@ const Hero = () => {
               Rawda Mohamed
             </h1>
             <h2 className="text-2xl md:text-3xl font-playfair font-medium text-sage mb-6">
-              UI/UX Designer & Frontend Developer
+            Frontend Developer & UI/UX Designer 
             </h2>
             <p className="text-foreground/90 max-w-lg mb-8">
               Passionate about creating beautiful, functional, and accessible web experiences. 
@@ -66,9 +66,20 @@ const Hero = () => {
             <div className="relative w-64 h-64 md:w-80 md:h-80">
               <div className="absolute inset-0 bg-mint rounded-full opacity-20 float-animation"></div>
               <div className="absolute inset-0 top-4 left-4 bg-sage rounded-full opacity-30 float-animation" style={{animationDelay: '0.5s'}}></div>
-              <div className="relative w-full h-full bg-forest rounded-full flex items-center justify-center text-white text-5xl font-playfair font-bold float-animation" style={{animationDelay: '1s'}}>
+              {/* <div className="relative w-full h-full bg-forest rounded-full flex items-center justify-center text-white text-5xl font-playfair font-bold float-animation" style={{animationDelay: '1s'}}>
                 RM
-              </div>
+              </div> */}
+              <div
+  className="relative w-full h-full bg-forest rounded-full flex items-center justify-center float-animation overflow-hidden"
+  style={{ animationDelay: '1s' }}
+>
+  <img
+    src="/profile.png"
+    alt="Profile"
+    className="w-full h-full object-cover"
+  />
+</div>
+
             </div>
           </div>
         </div>

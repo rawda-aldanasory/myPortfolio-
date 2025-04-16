@@ -28,7 +28,7 @@ const Navbar = () => {
 
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${
-      scrolled ? 'bg-cream/95 backdrop-blur-sm shadow-md py-2' : 'py-4 bg-transparent'
+      scrolled ? 'bg-cream/95 backdrop-blur-sm shadow-md py-5' : 'py-4 bg-transparent'
     }`}>
       <div className="container mx-auto px-4 flex justify-between items-center">
         <a href="#" className="text-forest text-xl font-playfair font-bold">Rawda<span className="text-sage">.</span></a>

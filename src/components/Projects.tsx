@@ -68,7 +68,7 @@ const Projects = () => {
       tags: ["Angular", "TypeScript", "E-commerce"],
       live: "https://angular-mini-store.vercel.app/",
       github: null,
-      image: null
+      image: "./loginForm_Angular.png"
     },
     {
       title: "Task Manager",
@@ -76,7 +76,7 @@ const Projects = () => {
       tags: ["JavaScript", "CSS", "Web Storage API"],
       live: "https://task-manager-gray-six.vercel.app/",
       github: null,
-      image: null
+      image: "todoApp.png"
     },
     {
       title: "Brainwave",
@@ -84,7 +84,7 @@ const Projects = () => {
       tags: ["React.js", "Tailwind CSS", "Parallax"],
       live: "https://brainwavesite.vercel.app/",
       github: null,
-      image: null
+      image: "brainwavesite.png"
     },
     {
       title: "Astropioneer",
@@ -92,7 +92,7 @@ const Projects = () => {
       tags: ["React.js", "Leaflet", "API Integration"],
       live: "https://nasa-site-one.vercel.app/",
       github: null,
-      image: null
+      image: "Astropioneer.png"
     },
     {
       title: "Company Website",
@@ -101,7 +101,8 @@ const Projects = () => {
       live: "https://www.linkedin.com/posts/rawda-mohamed1_it-is-my-great-pleasure-to-share-that-my-activity-7227982531990601728-4KPA?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEpb1CoBQrVIn_TEXDWL-A0_fa02rmN3fuU",
       github: null,
       image: null
-    }
+    },
+    
   ];
 
   return (

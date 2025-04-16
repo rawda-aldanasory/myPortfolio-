@@ -100,3 +100,21 @@
 .float-animation {
   animation: float 5s ease-in-out infinite;
 }
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes grow {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.8s ease forwards;
+}
+
+.animate-grow {
+  animation: grow 1.5s ease-out forwards;
+}

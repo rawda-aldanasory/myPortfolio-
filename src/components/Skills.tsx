@@ -35,20 +35,20 @@ const Skills = () => {
       icon: <Code className="text-forest" size={24} />,
       skills: [
         { name: "HTML5 & CSS3", level: 95 },
-        { name: "JavaScript (ES6+)", level: 90 },
-        { name: "React.js", level: 85 },
+        { name: "JavaScript (ES6+)", level: 70 },
+        { name: "React.js", level: 70 },
         { name: "Bootstrap", level: 80 },
-        { name: "Angular", level: 65 },
+        { name: "Angular", level: 30 },
       ]
     },
     {
       title: "UI/UX Design",
       icon: <PaintBucket className="text-forest" size={24} />,
       skills: [
-        { name: "Figma", level: 90 },
-        { name: "Adobe XD", level: 85 },
+        { name: "Figma", level: 70 },
+        { name: "Adobe XD", level: 75 },
         { name: "Photoshop", level: 75 },
-        { name: "Illustrator", level: 70 },
+        { name: "Illustrator", level: 75 },
         { name: "User Research", level: 80 },
       ]
     },
@@ -56,11 +56,11 @@ const Skills = () => {
       title: "Programming Languages",
       icon: <Terminal className="text-forest" size={24} />,
       skills: [
-        { name: "JavaScript", level: 90 },
-        { name: "TypeScript", level: 80 },
-        { name: "Python", level: 60 },
-        { name: "PHP", level: 65 },
-        { name: "SQL", level: 75 },
+        { name: "JavaScript", level: 70 },
+        { name: "TypeScript", level: 50 },
+        { name: "Python", level: 50 },
+        { name: "PHP", level: 30 },
+        { name: "SQL", level: 60 },
       ]
     },
     {
@@ -68,10 +68,10 @@ const Skills = () => {
       icon: <GitBranch className="text-forest" size={24} />,
       skills: [
         { name: "Git & GitHub", level: 85 },
-        { name: "API Testing", level: 80 },
-        { name: "Manual Testing", level: 85 },
+        { name: "API Testing", level: 70 },
+        { name: "Manual Testing", level: 75 },
         { name: "Database Management", level: 70 },
-        { name: "Problem Solving", level: 90 },
+        { name: "Problem Solving", level: 80 },
       ]
     },
   ];

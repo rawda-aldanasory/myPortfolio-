@@ -1,10 +1,21 @@
+/* Base style */
+body {
+  background-color: #f8f5f0;
+  background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png'); /* خلفية ورق خفيفة */
+  background-repeat: repeat;
+  background-size: auto;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  font-family: 'Playfair Display', serif;
+  color: #2d3a2d; /* forest-like */
+  background-color: #f8f5f0; /* beige cream */
 }
 
+/* Optional logo spin if you use logo */
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -12,10 +23,10 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 1.5em #a4b49c88);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 1.5em #61dafb99);
 }
 
 @keyframes logo-spin {
@@ -33,10 +44,17 @@
   }
 }
 
+/* Cards */
 .card {
   padding: 2em;
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+  border: 1px solid #cdd8cd;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
+/* Read the docs text */
 .read-the-docs {
-  color: #888;
+  color: #999888;
+  font-style: italic;
 }
